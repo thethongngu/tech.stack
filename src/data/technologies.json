@@ -1,0 +1,146 @@
+[
+  {
+    "id": "react",
+    "name": "React",
+    "description": "A JavaScript library for building user interfaces.",
+    "logoUrl": "/logos/react.svg",
+    "tags": ["JavaScript", "UI", "Frontend", "Library"],
+    "category": "Frontend Frameworks/Libraries",
+    "compatibilities": ["Next.js", "Vite", "Create React App"],
+    "website": "https://react.dev"
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "description": "A platform and framework for building single-page client applications using HTML and TypeScript.",
+    "logoUrl": "/logos/angular.svg",
+    "tags": ["JavaScript", "TypeScript", "Frontend", "Framework"],
+    "category": "Frontend Frameworks/Libraries",
+    "compatibilities": ["Nx", "Angular CLI"],
+    "website": "https://angular.io"
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "description": "The Progressive JavaScript Framework.",
+    "logoUrl": "/logos/vue.svg",
+    "tags": ["JavaScript", "UI", "Frontend", "Framework"],
+    "category": "Frontend Frameworks/Libraries",
+    "compatibilities": ["Nuxt.js", "Vite"],
+    "website": "https://vuejs.org"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine.",
+    "tags": ["JavaScript", "Backend", "Runtime"],
+    "category": "Backend Platforms",
+    "compatibilities": ["Express.js", "NestJS", "Next.js"],
+    "website": "https://nodejs.org"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "description": "An interpreted, high-level and general-purpose programming language.",
+    "logoUrl": "/logos/python.svg",
+    "tags": ["Programming Language", "Backend", "Data Science", "ML"],
+    "category": "Programming Languages",
+    "compatibilities": ["Django", "Flask", "NumPy", "Pandas"],
+    "website": "https://www.python.org"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "description": "A typed superset of JavaScript that compiles to plain JavaScript.",
+    "logoUrl": "/logos/typescript.svg",
+    "tags": ["JavaScript", "Typing", "Superset"],
+    "category": "Programming Languages",
+    "compatibilities": ["React", "Angular", "Vue.js", "Node.js"],
+    "website": "https://www.typescriptlang.org"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "description": "A set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.",
+    "tags": ["DevOps", "Containerization", "Deployment"],
+    "category": "DevOps Tools",
+    "compatibilities": ["Kubernetes", "Jenkins", "AWS", "Azure"],
+    "website": "https://www.docker.com"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "description": "An open-source container orchestration system for automating software deployment, scaling, and management.",
+    "logoUrl": "/logos/kubernetes.svg",
+    "tags": ["DevOps", "Orchestration", "Containerization"],
+    "category": "DevOps Tools",
+    "compatibilities": ["Docker", "Helm", "AWS EKS", "Google GKE"],
+    "website": "https://kubernetes.io"
+  },
+  {
+    "id": "aws",
+    "name": "Amazon Web Services",
+    "description": "A comprehensive, evolving cloud computing platform provided by Amazon.",
+    "tags": ["Cloud", "IaaS", "PaaS", "SaaS"],
+    "category": "Cloud Platforms",
+    "compatibilities": ["EC2", "S3", "Lambda", "RDS"],
+    "website": "https://aws.amazon.com"
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "description": "A cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
+    "tags": ["Cloud", "IaaS", "PaaS", "SaaS"],
+    "category": "Cloud Platforms",
+    "compatibilities": ["Azure VMs", "Blob Storage", "Azure Functions", "Azure SQL Database"],
+    "website": "https://azure.microsoft.com"
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "description": "The React Framework for Production.",
+    "logoUrl": "/logos/nextjs.svg",
+    "tags": ["React", "Framework", "SSR", "SSG", "Fullstack"],
+    "category": "Frontend Frameworks/Libraries",
+    "compatibilities": ["React", "Vercel", "Node.js"],
+    "website": "https://nextjs.org"
+  },
+  {
+    "id": "nestjs",
+    "name": "NestJS",
+    "description": "A progressive Node.js framework for building efficient, reliable and scalable server-side applications.",
+    "logoUrl": "/logos/nestjs.svg",
+    "tags": ["Node.js", "Backend", "Framework", "TypeScript"],
+    "category": "Backend Frameworks",
+    "compatibilities": ["Node.js", "TypeScript", "Docker"],
+    "website": "https://nestjs.com"
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL",
+    "description": "A query language for APIs and a server-side runtime for executing queries by using a type system you define for your data.",
+    "tags": ["API", "Query Language", "Backend"],
+    "category": "API Technologies",
+    "compatibilities": ["Apollo Server", "Relay", "Node.js", "Python"],
+    "website": "https://graphql.org"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "description": "A source-available cross-platform document-oriented database program.",
+    "logoUrl": "/logos/mongodb.svg",
+    "tags": ["Database", "NoSQL", "Document Store"],
+    "category": "Databases",
+    "compatibilities": ["Node.js", "Python", "Java", "Mongoose"],
+    "website": "https://www.mongodb.com"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "description": "A powerful, open source object-relational database system.",
+    "tags": ["Database", "SQL", "Relational"],
+    "category": "Databases",
+    "compatibilities": ["Node.js", "Python", "Java", "SQLAlchemy"],
+    "website": "https://www.postgresql.org"
+  }
+]
