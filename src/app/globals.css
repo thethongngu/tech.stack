@@ -6,7 +6,24 @@
   --foreground-rgb: 17 24 39;    /* Dark text (Tailwind's gray-800) */
   --muted-rgb: 107 114 128;      /* Muted text (Tailwind's gray-500) */
   --primary-rgb: 79 70 229;      /* Primary color (Tailwind's indigo-600) */
+  --primary-foreground-rgb: 255 255 255; /* White for contrast with primary */
   --border-rgb: 229 231 235;      /* Border color (Tailwind's gray-200) */
+
+  /* Input specific variables */
+  --input-border-rgb: 229 231 235; /* Same as --border-rgb */
+  --input-bg-rgb: 255 255 255;    /* Same as --background-rgb */
+  --input-text-rgb: 17 24 39;     /* Same as --foreground-rgb */
+
+  /* Card specific variables */
+  --card-bg-rgb: 249 250 251;      /* Tailwind gray-50 */
+  --card-title-rgb: var(--foreground-rgb);
+
+  /* Secondary action button variables */
+  --secondary-action-rgb: 107 114 128; /* Tailwind gray-500 */
+  --secondary-action-foreground-rgb: 255 255 255; /* White */
+
+  /* Progress bar background variable */
+  --progress-bar-bg-rgb: 229 231 235; /* Tailwind gray-200 */
 
   /* Variables from create-next-app, keep them if they are used by default components/layouts */
   --geist-sans: var(--font-geist-sans); /* Assuming --font-geist-sans is defined elsewhere by Next/font */
@@ -18,7 +35,24 @@ html.dark {
   --foreground-rgb: 243 244 246;  /* Light text (gray-100) */
   --muted-rgb: 156 163 175;       /* Muted text (gray-400) */
   --primary-rgb: 99 102 241;      /* Primary color (indigo-500) */
+  --primary-foreground-rgb: 255 255 255; /* White for contrast with dark primary */
   --border-rgb: 55 65 81;         /* Border color (gray-700) */
+
+  /* Input specific variables for dark mode */
+  --input-border-rgb: 55 65 81;   /* Same as --border-rgb (dark) */
+  --input-bg-rgb: 17 24 39;       /* Same as --background-rgb (dark) */
+  --input-text-rgb: 243 244 246;  /* Same as --foreground-rgb (dark) */
+
+  /* Card specific variables for dark mode */
+  --card-bg-rgb: 31 41 55;        /* Tailwind gray-800 */
+  --card-title-rgb: var(--foreground-rgb); /* Same as --foreground-rgb (dark) */
+
+  /* Secondary action button variables for dark mode */
+  --secondary-action-rgb: 75 85 99; /* Tailwind gray-600 */
+  --secondary-action-foreground-rgb: 229 231 235; /* Tailwind gray-200 */
+
+  /* Progress bar background variable for dark mode */
+  --progress-bar-bg-rgb: 55 65 81; /* Tailwind gray-700 */
 }
 
 /* Remove the @theme inline and prefers-color-scheme blocks if html.dark is the sole source of truth for dark mode */
