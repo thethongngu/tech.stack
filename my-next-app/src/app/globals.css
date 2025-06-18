@@ -1,0 +1,85 @@
+@import "tailwindcss"; /* Tailwind directives must be at the top */
+
+/* 1. Define CSS Variables for Colors */
+:root {
+  --background-rgb: 255 255 255; /* Light background */
+  --foreground-rgb: 17 24 39;    /* Dark text (Tailwind's gray-800) */
+  --muted-rgb: 107 114 128;      /* Muted text (Tailwind's gray-500) */
+  --primary-rgb: 79 70 229;      /* Primary color (Tailwind's indigo-600) */
+  --border-rgb: 229 231 235;      /* Border color (Tailwind's gray-200) */
+
+  /* Variables from create-next-app, keep them if they are used by default components/layouts */
+  --geist-sans: var(--font-geist-sans); /* Assuming --font-geist-sans is defined elsewhere by Next/font */
+  --geist-mono: var(--font-geist-mono);   /* Assuming --font-geist-mono is defined elsewhere by Next/font */
+}
+
+html.dark {
+  --background-rgb: 17 24 39;     /* Dark background (gray-800) */
+  --foreground-rgb: 243 244 246;  /* Light text (gray-100) */
+  --muted-rgb: 156 163 175;       /* Muted text (gray-400) */
+  --primary-rgb: 99 102 241;      /* Primary color (indigo-500) */
+  --border-rgb: 55 65 81;         /* Border color (gray-700) */
+}
+
+/* Remove the @theme inline and prefers-color-scheme blocks if html.dark is the sole source of truth for dark mode */
+/* For now, I'll leave them commented out in case they are needed by some part of Next.js default UI */
+/*
+@theme inline {
+  --color-background: var(--background-rgb); // These would need to be rgb() wrapped
+  --color-foreground: var(--foreground-rgb);
+  --font-sans: var(--geist-sans);
+  --font-mono: var(--geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    // These would be overridden by html.dark if class is applied
+    // --background: #0a0a0a;
+    // --foreground: #ededed;
+  }
+}
+*/
+
+/* 2. Apply Variables to Global Styles & 3. Monospace Font */
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-rgb));
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Smooth transitions for theme changes */
+  transition-property: color, background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(var(--foreground-rgb));
+  margin-bottom: 0.5em; /* Basic spacing */
+}
+
+p {
+  color: rgb(var(--muted-rgb));
+  line-height: 1.6;
+  margin-bottom: 1em; /* Basic spacing */
+}
+
+a {
+  color: rgb(var(--primary-rgb));
+  text-decoration: none;
+  transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a:hover {
+  text-decoration: underline;
+  /* Slightly lighten/darken primary color on hover, or use a different variable */
+}
+
+/* Basic border styling for elements like inputs or cards if needed */
+.bordered {
+  border: 1px solid rgb(var(--border-rgb));
+}
+
+/* Example of using opacity with RGB variables */
+.translucent-background {
+  background-color: rgb(var(--background-rgb) / 0.8);
+}
