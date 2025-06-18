@@ -16,6 +16,10 @@ const Header: React.FC = () => {
         <Link href="/technologies" className="text-[rgb(var(--foreground-rgb))] hover:text-[rgb(var(--foreground-rgb),0.7)] no-underline">
           Technology Catalog
         </Link>
+        {/* New Link for the Wizard */}
+        <Link href="/wizard" className="text-[rgb(var(--foreground-rgb))] hover:text-[rgb(var(--foreground-rgb),0.7)] no-underline">
+          Stack Wizard
+        </Link>
         <ThemeToggleButton />
       </nav>
     </header>
