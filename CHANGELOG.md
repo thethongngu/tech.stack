@@ -5,4 +5,5 @@
 - Added project roadmap in docs/ROADMAP.md.
 - Implemented MVP features: technology dataset, explorer with search and
   filtering, stack wizard, and basic UI.
+- Added technology detail pages linked from the catalog.
 
