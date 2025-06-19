@@ -1,0 +1,89 @@
+{
+  "Programming Language": [
+    "General Purpose",
+    "Web Development",
+    "Systems Programming",
+    "Concurrent Programming",
+    "Mobile Development (iOS)",
+    "Mobile Development (Android)",
+    "Functional Programming"
+  ],
+  "API Framework": [
+    "Web Development (Node.js)",
+    "Web Development (Python)",
+    "Web Development (Java)",
+    "Web Development (Ruby)",
+    "Web Development (.NET)"
+  ],
+  "Database": [
+    "Relational",
+    "NoSQL (Document)",
+    "NoSQL (Key-Value)",
+    "NoSQL (Columnar)",
+    "Relational (Embedded)"
+  ],
+  "Cache": [
+    "In-Memory",
+    "In-Memory Data Grid"
+  ],
+  "Message Queue": [
+    "Message Broker",
+    "Streaming Platform",
+    "Messaging Library",
+    "Messaging System"
+  ],
+  "Frontend Framework": [
+    "JavaScript Library",
+    "TypeScript Framework",
+    "JavaScript Framework",
+    "Compiler"
+  ],
+  "Mobile Development": [
+    "Cross-Platform",
+    "Cross-Platform (.NET)"
+  ],
+  "CI/CD": [
+    "Automation Server",
+    "Integrated CI/CD",
+    "Cloud-based CI/CD",
+    "Continuous Delivery Platform"
+  ],
+  "Cloud Provider": [
+    "IaaS/PaaS/SaaS",
+    "IaaS",
+    "PaaS",
+    "PaaS/Jamstack"
+  ],
+  "Containerization": [
+    "Container Platform",
+    "Container Orchestration",
+    "Container Engine"
+  ],
+  "Web Server": [
+    "HTTP Server/Reverse Proxy",
+    "HTTP Server"
+  ],
+  "Big Data": [
+    "Distributed Processing",
+    "Stream Processing",
+    "Distributed SQL Query Engine"
+  ],
+  "Machine Learning": [
+    "Deep Learning Library",
+    "General Machine Learning Library",
+    "Deep Learning API"
+  ],
+  "Monitoring & Observability": [
+    "Monitoring System",
+    "Visualization Platform",
+    "SaaS Monitoring Platform",
+    "SaaS Application Performance Monitoring",
+    "Log Management & Analytics"
+  ],
+  "Headless CMS": [
+    "Open Source",
+    "SaaS",
+    "SaaS/Real-time",
+    "Open Source/Data Platform"
+  ]
+}

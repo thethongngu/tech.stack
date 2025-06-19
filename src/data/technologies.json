@@ -1,146 +1,562 @@
 [
   {
-    "id": "react",
-    "name": "React",
-    "description": "A JavaScript library for building user interfaces.",
-    "logoUrl": "/logos/react.svg",
-    "tags": ["JavaScript", "UI", "Frontend", "Library"],
-    "category": "Frontend Frameworks/Libraries",
-    "compatibilities": ["Next.js", "Vite", "Create React App"],
-    "website": "https://react.dev"
-  },
-  {
-    "id": "angular",
-    "name": "Angular",
-    "description": "A platform and framework for building single-page client applications using HTML and TypeScript.",
-    "logoUrl": "/logos/angular.svg",
-    "tags": ["JavaScript", "TypeScript", "Frontend", "Framework"],
-    "category": "Frontend Frameworks/Libraries",
-    "compatibilities": ["Nx", "Angular CLI"],
-    "website": "https://angular.io"
-  },
-  {
-    "id": "vue",
-    "name": "Vue.js",
-    "description": "The Progressive JavaScript Framework.",
-    "logoUrl": "/logos/vue.svg",
-    "tags": ["JavaScript", "UI", "Frontend", "Framework"],
-    "category": "Frontend Frameworks/Libraries",
-    "compatibilities": ["Nuxt.js", "Vite"],
-    "website": "https://vuejs.org"
-  },
-  {
-    "id": "nodejs",
-    "name": "Node.js",
-    "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine.",
-    "tags": ["JavaScript", "Backend", "Runtime"],
-    "category": "Backend Platforms",
-    "compatibilities": ["Express.js", "NestJS", "Next.js"],
-    "website": "https://nodejs.org"
-  },
-  {
-    "id": "python",
     "name": "Python",
-    "description": "An interpreted, high-level and general-purpose programming language.",
-    "logoUrl": "/logos/python.svg",
-    "tags": ["Programming Language", "Backend", "Data Science", "ML"],
-    "category": "Programming Languages",
-    "compatibilities": ["Django", "Flask", "NumPy", "Pandas"],
-    "website": "https://www.python.org"
+    "category": "Programming Language",
+    "subcategory": "General Purpose",
+    "description": "A versatile high-level programming language known for its readability and extensive libraries.",
+    "logo_url": "logo_placeholder.png"
   },
   {
-    "id": "typescript",
-    "name": "TypeScript",
-    "description": "A typed superset of JavaScript that compiles to plain JavaScript.",
-    "logoUrl": "/logos/typescript.svg",
-    "tags": ["JavaScript", "Typing", "Superset"],
-    "category": "Programming Languages",
-    "compatibilities": ["React", "Angular", "Vue.js", "Node.js"],
-    "website": "https://www.typescriptlang.org"
+    "name": "JavaScript",
+    "category": "Programming Language",
+    "subcategory": "Web Development",
+    "description": "A high-level, interpreted scripting language primarily used for front-end web development.",
+    "logo_url": "logo_placeholder.png"
   },
   {
-    "id": "docker",
-    "name": "Docker",
-    "description": "A set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.",
-    "tags": ["DevOps", "Containerization", "Deployment"],
-    "category": "DevOps Tools",
-    "compatibilities": ["Kubernetes", "Jenkins", "AWS", "Azure"],
-    "website": "https://www.docker.com"
+    "name": "Java",
+    "category": "Programming Language",
+    "subcategory": "General Purpose",
+    "description": "A class-based, object-oriented programming language designed for portability across platforms.",
+    "logo_url": "logo_placeholder.png"
   },
   {
-    "id": "kubernetes",
-    "name": "Kubernetes",
-    "description": "An open-source container orchestration system for automating software deployment, scaling, and management.",
-    "logoUrl": "/logos/kubernetes.svg",
-    "tags": ["DevOps", "Orchestration", "Containerization"],
-    "category": "DevOps Tools",
-    "compatibilities": ["Docker", "Helm", "AWS EKS", "Google GKE"],
-    "website": "https://kubernetes.io"
+    "name": "C++",
+    "category": "Programming Language",
+    "subcategory": "Systems Programming",
+    "description": "An extension of the C language, providing high performance and control over hardware.",
+    "logo_url": "logo_placeholder.png"
   },
   {
-    "id": "aws",
-    "name": "Amazon Web Services",
-    "description": "A comprehensive, evolving cloud computing platform provided by Amazon.",
-    "tags": ["Cloud", "IaaS", "PaaS", "SaaS"],
-    "category": "Cloud Platforms",
-    "compatibilities": ["EC2", "S3", "Lambda", "RDS"],
-    "website": "https://aws.amazon.com"
+    "name": "Go",
+    "category": "Programming Language",
+    "subcategory": "Concurrent Programming",
+    "description": "A statically typed, compiled language designed at Google for building efficient and reliable software.",
+    "logo_url": "logo_placeholder.png"
   },
   {
-    "id": "azure",
-    "name": "Microsoft Azure",
-    "description": "A cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
-    "tags": ["Cloud", "IaaS", "PaaS", "SaaS"],
-    "category": "Cloud Platforms",
-    "compatibilities": ["Azure VMs", "Blob Storage", "Azure Functions", "Azure SQL Database"],
-    "website": "https://azure.microsoft.com"
+    "name": "Rust",
+    "category": "Programming Language",
+    "subcategory": "Systems Programming",
+    "description": "A multi-paradigm systems programming language focused on safety and performance.",
+    "logo_url": "logo_placeholder.png"
   },
   {
-    "id": "nextjs",
-    "name": "Next.js",
-    "description": "The React Framework for Production.",
-    "logoUrl": "/logos/nextjs.svg",
-    "tags": ["React", "Framework", "SSR", "SSG", "Fullstack"],
-    "category": "Frontend Frameworks/Libraries",
-    "compatibilities": ["React", "Vercel", "Node.js"],
-    "website": "https://nextjs.org"
+    "name": "Swift",
+    "category": "Programming Language",
+    "subcategory": "Mobile Development (iOS)",
+    "description": "A powerful and intuitive programming language for macOS, iOS, watchOS, and tvOS.",
+    "logo_url": "logo_placeholder.png"
   },
   {
-    "id": "nestjs",
-    "name": "NestJS",
-    "description": "A progressive Node.js framework for building efficient, reliable and scalable server-side applications.",
-    "logoUrl": "/logos/nestjs.svg",
-    "tags": ["Node.js", "Backend", "Framework", "TypeScript"],
-    "category": "Backend Frameworks",
-    "compatibilities": ["Node.js", "TypeScript", "Docker"],
-    "website": "https://nestjs.com"
+    "name": "Kotlin",
+    "category": "Programming Language",
+    "subcategory": "Mobile Development (Android)",
+    "description": "A modern, concise, and interoperable programming language for JVM, Android, and browser.",
+    "logo_url": "logo_placeholder.png"
   },
   {
-    "id": "graphql",
-    "name": "GraphQL",
-    "description": "A query language for APIs and a server-side runtime for executing queries by using a type system you define for your data.",
-    "tags": ["API", "Query Language", "Backend"],
-    "category": "API Technologies",
-    "compatibilities": ["Apollo Server", "Relay", "Node.js", "Python"],
-    "website": "https://graphql.org"
+    "name": "Ruby",
+    "category": "Programming Language",
+    "subcategory": "Web Development",
+    "description": "A dynamic, open-source programming language with a focus on simplicity and productivity.",
+    "logo_url": "logo_placeholder.png"
   },
   {
-    "id": "mongodb",
-    "name": "MongoDB",
-    "description": "A source-available cross-platform document-oriented database program.",
-    "logoUrl": "/logos/mongodb.svg",
-    "tags": ["Database", "NoSQL", "Document Store"],
-    "category": "Databases",
-    "compatibilities": ["Node.js", "Python", "Java", "Mongoose"],
-    "website": "https://www.mongodb.com"
+    "name": "PHP",
+    "category": "Programming Language",
+    "subcategory": "Web Development",
+    "description": "A popular general-purpose scripting language especially suited to web development.",
+    "logo_url": "logo_placeholder.png"
   },
   {
-    "id": "postgresql",
+    "name": "Scala",
+    "category": "Programming Language",
+    "subcategory": "Functional Programming",
+    "description": "A high-level language that combines object-oriented and functional programming.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Haskell",
+    "category": "Programming Language",
+    "subcategory": "Functional Programming",
+    "description": "A purely functional programming language with a strong static type system.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Express.js",
+    "category": "API Framework",
+    "subcategory": "Web Development (Node.js)",
+    "description": "A minimal and flexible Node.js web application framework.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Django REST framework",
+    "category": "API Framework",
+    "subcategory": "Web Development (Python)",
+    "description": "A powerful and flexible toolkit for building Web APIs in Django.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Spring Boot",
+    "category": "API Framework",
+    "subcategory": "Web Development (Java)",
+    "description": "An opinionated framework for building production-ready Spring applications.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Ruby on Rails",
+    "category": "API Framework",
+    "subcategory": "Web Development (Ruby)",
+    "description": "A web application framework that includes everything needed to create database-backed web applications.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Flask",
+    "category": "API Framework",
+    "subcategory": "Web Development (Python)",
+    "description": "A lightweight WSGI web application framework in Python.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "FastAPI",
+    "category": "API Framework",
+    "subcategory": "Web Development (Python)",
+    "description": "A modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": ".NET Web API",
+    "category": "API Framework",
+    "subcategory": "Web Development (.NET)",
+    "description": "A framework for building HTTP services that can be accessed from any client.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
     "name": "PostgreSQL",
-    "description": "A powerful, open source object-relational database system.",
-    "tags": ["Database", "SQL", "Relational"],
-    "category": "Databases",
-    "compatibilities": ["Node.js", "Python", "Java", "SQLAlchemy"],
-    "website": "https://www.postgresql.org"
+    "category": "Database",
+    "subcategory": "Relational",
+    "description": "A powerful, open-source object-relational database system.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "MySQL",
+    "category": "Database",
+    "subcategory": "Relational",
+    "description": "A popular open-source relational database management system.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "MongoDB",
+    "category": "Database",
+    "subcategory": "NoSQL (Document)",
+    "description": "A source-available cross-platform document-oriented database program.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Redis",
+    "category": "Database",
+    "subcategory": "NoSQL (Key-Value)",
+    "description": "An in-memory data structure store, used as a database, cache, and message broker.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Cassandra",
+    "category": "Database",
+    "subcategory": "NoSQL (Columnar)",
+    "description": "A free and open-source, distributed, wide column store, NoSQL database management system.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "SQLite",
+    "category": "Database",
+    "subcategory": "Relational (Embedded)",
+    "description": "A C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Microsoft SQL Server",
+    "category": "Database",
+    "subcategory": "Relational",
+    "description": "A relational database management system developed by Microsoft.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Oracle Database",
+    "category": "Database",
+    "subcategory": "Relational",
+    "description": "A multi-model database management system produced and marketed by Oracle Corporation.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Couchbase",
+    "category": "Database",
+    "subcategory": "NoSQL (Document)",
+    "description": "A distributed NoSQL cloud database that offers robust capabilities for business-critical applications.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Memcached",
+    "category": "Cache",
+    "subcategory": "In-Memory",
+    "description": "A general-purpose distributed memory caching system.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Hazelcast",
+    "category": "Cache",
+    "subcategory": "In-Memory Data Grid",
+    "description": "An open-source in-memory data grid based on Java.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "RabbitMQ",
+    "category": "Message Queue",
+    "subcategory": "Message Broker",
+    "description": "An open-source message broker software that originally implemented the Advanced Message Queuing Protocol (AMQP).",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Apache Kafka",
+    "category": "Message Queue",
+    "subcategory": "Streaming Platform",
+    "description": "A distributed event streaming platform capable of handling trillions of events a day.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "ActiveMQ",
+    "category": "Message Queue",
+    "subcategory": "Message Broker",
+    "description": "An open-source message broker written in Java together with a full Java Message Service (JMS) client.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "ZeroMQ",
+    "category": "Message Queue",
+    "subcategory": "Messaging Library",
+    "description": "A high-performance asynchronous messaging library.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "NATS",
+    "category": "Message Queue",
+    "subcategory": "Messaging System",
+    "description": "A simple, high-performance open-source messaging system for cloud-native applications, IoT messaging, and microservices architectures.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "React",
+    "category": "Frontend Framework",
+    "subcategory": "JavaScript Library",
+    "description": "A JavaScript library for building user interfaces or UI components.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Angular",
+    "category": "Frontend Framework",
+    "subcategory": "TypeScript Framework",
+    "description": "A platform and framework for building single-page client applications using HTML and TypeScript.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Vue.js",
+    "category": "Frontend Framework",
+    "subcategory": "JavaScript Framework",
+    "description": "A progressive framework for building user interfaces.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Svelte",
+    "category": "Frontend Framework",
+    "subcategory": "Compiler",
+    "description": "A radical new approach to building user interfaces, where work is shifted from the browser to the compile step.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Ember.js",
+    "category": "Frontend Framework",
+    "subcategory": "JavaScript Framework",
+    "description": "A productive, battle-tested JavaScript framework for building modern web applications.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Backbone.js",
+    "category": "Frontend Framework",
+    "subcategory": "JavaScript Library",
+    "description": "A JavaScript library with a RESTful JSON interface and is based on the Model-View-Presenter (MVP) application design paradigm.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "React Native",
+    "category": "Mobile Development",
+    "subcategory": "Cross-Platform",
+    "description": "A framework for building native mobile apps using React.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Flutter",
+    "category": "Mobile Development",
+    "subcategory": "Cross-Platform",
+    "description": "Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Xamarin",
+    "category": "Mobile Development",
+    "subcategory": "Cross-Platform (.NET)",
+    "description": "An open-source platform for building modern and performant applications for iOS, Android, and Windows with .NET.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Jenkins",
+    "category": "CI/CD",
+    "subcategory": "Automation Server",
+    "description": "An open-source automation server which enables developers around the world to reliably build, test, and deploy their software.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "GitLab CI",
+    "category": "CI/CD",
+    "subcategory": "Integrated CI/CD",
+    "description": "A part of GitLab used to build, test, and deploy applications.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "GitHub Actions",
+    "category": "CI/CD",
+    "subcategory": "Integrated CI/CD",
+    "description": "Automate, customize, and execute your software development workflows right in your GitHub repository.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "CircleCI",
+    "category": "CI/CD",
+    "subcategory": "Cloud-based CI/CD",
+    "description": "A continuous integration and delivery platform that helps software teams work smarter, faster.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Travis CI",
+    "category": "CI/CD",
+    "subcategory": "Cloud-based CI/CD",
+    "description": "A hosted continuous integration service used to build and test software projects hosted at GitHub.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Spinnaker",
+    "category": "CI/CD",
+    "subcategory": "Continuous Delivery Platform",
+    "description": "An open-source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "AWS (Amazon Web Services)",
+    "category": "Cloud Provider",
+    "subcategory": "IaaS/PaaS/SaaS",
+    "description": "A comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Azure",
+    "category": "Cloud Provider",
+    "subcategory": "IaaS/PaaS/SaaS",
+    "description": "Microsoft's cloud computing service for building, testing, deploying, and managing applications and services.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Google Cloud Platform (GCP)",
+    "category": "Cloud Provider",
+    "subcategory": "IaaS/PaaS/SaaS",
+    "description": "A suite of cloud computing services offered by Google.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "DigitalOcean",
+    "category": "Cloud Provider",
+    "subcategory": "IaaS",
+    "description": "A cloud computing platform that offers virtual private servers (VPS), or 'droplets'.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Heroku",
+    "category": "Cloud Provider",
+    "subcategory": "PaaS",
+    "description": "A platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Vercel",
+    "category": "Cloud Provider",
+    "subcategory": "PaaS/Jamstack",
+    "description": "A cloud platform for static sites and Serverless Functions that fits perfectly with your workflow.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Docker",
+    "category": "Containerization",
+    "subcategory": "Container Platform",
+    "description": "A set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Kubernetes",
+    "category": "Containerization",
+    "subcategory": "Container Orchestration",
+    "description": "An open-source container orchestration system for automating software deployment, scaling, and management.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Podman",
+    "category": "Containerization",
+    "subcategory": "Container Engine",
+    "description": "A daemonless container engine for developing, managing, and running OCI Containers on your Linux System.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Nginx",
+    "category": "Web Server",
+    "subcategory": "HTTP Server/Reverse Proxy",
+    "description": "A web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Apache HTTP Server",
+    "category": "Web Server",
+    "subcategory": "HTTP Server",
+    "description": "A free and open-source cross-platform web server software.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Caddy",
+    "category": "Web Server",
+    "subcategory": "HTTP Server/Reverse Proxy",
+    "description": "An extensible, cross-platform, open-source web server written in Go.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "LiteSpeed",
+    "category": "Web Server",
+    "subcategory": "HTTP Server",
+    "description": "A high-performance, lightweight HTTP server.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Apache Hadoop",
+    "category": "Big Data",
+    "subcategory": "Distributed Processing",
+    "description": "A framework that allows for the distributed processing of large data sets across clusters of computers.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Apache Spark",
+    "category": "Big Data",
+    "subcategory": "Distributed Processing",
+    "description": "A unified analytics engine for large-scale data processing.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Apache Flink",
+    "category": "Big Data",
+    "subcategory": "Stream Processing",
+    "description": "An open-source, unified stream-processing and batch-processing framework.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Presto",
+    "category": "Big Data",
+    "subcategory": "Distributed SQL Query Engine",
+    "description": "An open-source distributed SQL query engine for running interactive analytic queries against data sources of all sizes.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "TensorFlow",
+    "category": "Machine Learning",
+    "subcategory": "Deep Learning Library",
+    "description": "An end-to-end open-source platform for machine learning.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "PyTorch",
+    "category": "Machine Learning",
+    "subcategory": "Deep Learning Library",
+    "description": "An open-source machine learning library based on the Torch library.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "scikit-learn",
+    "category": "Machine Learning",
+    "subcategory": "General Machine Learning Library",
+    "description": "A free software machine learning library for the Python programming language.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Keras",
+    "category": "Machine Learning",
+    "subcategory": "Deep Learning API",
+    "description": "An open-source software library that provides a Python interface for artificial neural networks.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Prometheus",
+    "category": "Monitoring & Observability",
+    "subcategory": "Monitoring System",
+    "description": "An open-source systems monitoring and alerting toolkit.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Grafana",
+    "category": "Monitoring & Observability",
+    "subcategory": "Visualization Platform",
+    "description": "A multi-platform open-source analytics and interactive visualization web application.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Datadog",
+    "category": "Monitoring & Observability",
+    "subcategory": "SaaS Monitoring Platform",
+    "description": "A monitoring service for cloud-scale applications, providing monitoring of servers, databases, tools, and services.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "New Relic",
+    "category": "Monitoring & Observability",
+    "subcategory": "SaaS Application Performance Monitoring",
+    "description": "An observability platform that helps you build better software.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "ELK Stack (Elasticsearch, Logstash, Kibana)",
+    "category": "Monitoring & Observability",
+    "subcategory": "Log Management & Analytics",
+    "description": "A popular suite for log management and analytics, combining Elasticsearch, Logstash, and Kibana.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Strapi",
+    "category": "Headless CMS",
+    "subcategory": "Open Source",
+    "description": "An open-source headless CMS to easily build customisable APIs.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Contentful",
+    "category": "Headless CMS",
+    "subcategory": "SaaS",
+    "description": "A content platform that lets you create, manage and distribute content to any platform.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Sanity.io",
+    "category": "Headless CMS",
+    "subcategory": "SaaS/Real-time",
+    "description": "A platform for structured content that comes with an open-source editor built in React.",
+    "logo_url": "logo_placeholder.png"
+  },
+  {
+    "name": "Directus",
+    "category": "Headless CMS",
+    "subcategory": "Open Source/Data Platform",
+    "description": "An open-source data platform that instantly wraps any SQL database with a real-time GraphQL+REST API for developers, and an intuitive admin app for non-technical users.",
+    "logo_url": "logo_placeholder.png"
   }
 ]
