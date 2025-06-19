@@ -51,11 +51,11 @@ This document outlines the long‐term plan for the Tech Stack Explorer and Pick
 
 ## 4. Roadmap Checklist
 1. **MVP**
-   - [ ] Basic technology list in JSON or database.
-   - [ ] Explorer page with search and filtering.
-   - [ ] Picker with questions and recommendation algorithm.
-   - [ ] Basic UI styling and layout.
-   - [ ] Initial hosting setup.
+   - [x] Basic technology list in JSON or database.
+   - [x] Explorer page with search and filtering.
+   - [x] Picker with questions and recommendation algorithm.
+   - [x] Basic UI styling and layout.
+   - [x] Initial hosting setup.
 2. **Enhancing Data and Detail**
    - [ ] Expand technology database and metadata.
    - [ ] Add detail pages with rich content.

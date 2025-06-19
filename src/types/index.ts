@@ -5,6 +5,6 @@ export interface ITechnology {
   logoUrl?: string;
   tags: string[];
   category: string;
-  compatibilities: string[];
+  compatibilities?: string[];
   website?: string;
 }

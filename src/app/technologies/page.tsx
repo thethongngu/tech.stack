@@ -9,8 +9,8 @@ const TechnologiesPage = () => {
   const [searchTerm, setSearchTerm] = useState<string>('');
 
   const allCategories = ['All', ...new Set(technologies.map(t => t.category).sort())];
-  const allTags = ['All', ...new Set(technologies.flatMap(t => t.tags).sort())];
-  const allCompatibilities = ['All', ...new Set(technologies.flatMap(t => t.compatibilities).sort())];
+  const allTags = ['All', ...new Set(technologies.flatMap(t => t.tags ?? []).sort())];
+  const allCompatibilities = ['All', ...new Set(technologies.flatMap(t => t.compatibilities ?? []).sort())];
 
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [selectedTag, setSelectedTag] = useState<string>('All');
@@ -18,13 +18,13 @@ const TechnologiesPage = () => {
 
   const filteredTechnologies = technologies.filter(tech => {
     const categoryMatch = selectedCategory === 'All' || tech.category === selectedCategory;
-    const tagMatch = selectedTag === 'All' || tech.tags.includes(selectedTag);
-    const compatibilityMatch = selectedCompatibility === 'All' || tech.compatibilities.includes(selectedCompatibility);
+    const tagMatch = selectedTag === 'All' || (tech.tags ?? []).includes(selectedTag);
+    const compatibilityMatch = selectedCompatibility === 'All' || (tech.compatibilities ?? []).includes(selectedCompatibility);
     const searchLower = searchTerm.toLowerCase();
     const searchMatch = searchTerm === '' ||
                         tech.name.toLowerCase().includes(searchLower) ||
                         tech.description.toLowerCase().includes(searchLower) ||
-                        tech.tags.some(tag => tag.toLowerCase().includes(searchLower));
+                        (tech.tags ?? []).some(tag => tag.toLowerCase().includes(searchLower));
     return categoryMatch && tagMatch && compatibilityMatch && searchMatch;
   });
 
