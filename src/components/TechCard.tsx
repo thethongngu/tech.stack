@@ -52,7 +52,7 @@ const TechCard: React.FC<TechCardProps> = ({ technology /*, viewMode */ }) => {
       <div className="mb-4">
         <strong className="text-xs font-semibold text-gray-500 dark:text-gray-400 block mb-1">COMPATIBILITIES:</strong>
         <div className="flex flex-wrap gap-1">
-          {technology.compatibilities.map(comp => (
+          {(technology.compatibilities ?? []).map(comp => (
             <span
               key={comp}
               className="bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 px-2 py-1 rounded-full text-xs font-medium"
