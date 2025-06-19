@@ -58,7 +58,7 @@ This document outlines the long‐term plan for the Tech Stack Explorer and Pick
    - [x] Initial hosting setup.
 2. **Enhancing Data and Detail**
    - [ ] Expand technology database and metadata.
-   - [ ] Add detail pages with rich content.
+   - [x] Add detail pages with rich content.
    - [ ] Improve filtering and search accuracy.
 3. **User Engagement Features**
    - [ ] Accounts for saving stacks and preferences.

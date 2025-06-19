@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { ITechnology } from '../types'; // Assuming types is in src/types
 
 interface TechCardProps {
@@ -28,7 +29,11 @@ const TechCard: React.FC<TechCardProps> = ({ technology /*, viewMode */ }) => {
             {getInitials(technology.name)}
           </div>
         )}
-        <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100 mt-0">{technology.name}</h3>
+        <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100 mt-0">
+          <Link href={`/technologies/${technology.id}`} className="hover:underline">
+            {technology.name}
+          </Link>
+        </h3>
       </div>
 
       <p className="text-sm text-gray-600 dark:text-gray-300 mb-3 text-ellipsis overflow-hidden flex-grow">
